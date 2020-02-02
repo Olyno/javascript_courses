@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="styles/bulma.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="section">
+        <div class="container has-text-centered">
+            <div class="columns">
+                <div class="column">
+                    <label for="amount" class="label">Sommes d'argent</label>
+                    <input type="text" class="input" id="amount" placeholder="Votre somme d'argent">
+                </div>
+                <div class="column">
+                    <label for="people" class="label">Nombre de personnes</label>
+                    <input type="text" class="input" id="people" placeholder="Votre nombre de personnes">
+                </div>
+            </div>
+            <button class="button is-info" id="calculator">Calcule</button>
+            <div class="section">
+                <h1 class="title">Total: <span id="result">0</span></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
